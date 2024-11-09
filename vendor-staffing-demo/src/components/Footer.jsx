@@ -12,7 +12,7 @@ function Footer() {
             <p>Mail: info@densysdatatechnology.com</p>
           </div>
           <div>
-            <p>Tejaswini</p>
+            <p>Thejeshwini</p>
             <p>Mobile: +91 97421 50264</p>
             <p>Mail: contact@densysdatatechnology.com</p>
           </div>
