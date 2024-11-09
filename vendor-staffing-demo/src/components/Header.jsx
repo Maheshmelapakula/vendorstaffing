@@ -10,6 +10,7 @@ function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-blue-600 text-white p-4 flex justify-between items-center shadow-lg z-50">
       <h1 className="text-2xl font-bold">Densys</h1>
+
       {/* Hamburger Icon */}
       <button
         className="block md:hidden text-white focus:outline-none"
@@ -59,7 +60,7 @@ function Header() {
 
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
-        <nav className="absolute top-full left-0 w-full bg-blue-600 text-white md:hidden shadow-lg">
+        <nav className="absolute top-16 left-0 w-full bg-blue-600 text-white md:hidden shadow-lg transition-all duration-300">
           <ul className="flex flex-col space-y-2 p-4">
             <li><a href="#services" className="hover:underline" onClick={toggleMenu}>Services</a></li>
             <li><a href="#portfolio" className="hover:underline" onClick={toggleMenu}>Portfolio</a></li>
